@@ -17,7 +17,7 @@ function Caption({text}: {text: string}) {
   return (
     <div className="w-full table">
       <figcaption className="p-1 sm:p-2 mt-0 sm:mt-0 text-gray-40 text-base lg:text-lg text-center leading-tight table-caption">
-        {text}
+        {text.id}
       </figcaption>
     </div>
   );
