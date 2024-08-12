@@ -915,7 +915,7 @@ function Example1() {
           isFromPackageImport={false}
           noShadow={true}
           noMargin={true}>
-          <div meta={meta}>{`function Video({ video }) {
+          <div data-meta={meta}>{`function Video({ video }) {
   return (
     <div>
       <Thumbnail video={video} />
@@ -987,7 +987,7 @@ function Example2() {
           isFromPackageImport={false}
           noShadow={true}
           noMargin={true}>
-          <div meta={meta}>{`function VideoList({ videos, emptyHeading }) {
+          <div data-meta={meta}>{`function VideoList({ videos, emptyHeading }) {
   const count = videos.length;
   let heading = emptyHeading;
   if (count > 0) {
@@ -1078,7 +1078,7 @@ function Example3() {
           isFromPackageImport={false}
           noShadow={true}
           noMargin={true}>
-          <div meta={meta}>{`import { useState } from 'react';
+          <div data-meta={meta}>{`import { useState } from 'react';
 
 function SearchableVideoList({ videos }) {
   const [searchText, setSearchText] = useState('');
@@ -1149,7 +1149,7 @@ function Example4() {
           isFromPackageImport={false}
           noShadow={true}
           noMargin={true}>
-          <div meta={meta}>{`import { db } from './database.js';
+          <div data-meta={meta}>{`import { db } from './database.js';
 import { Suspense } from 'react';
 
 async function ConferencePage({ slug }) {
