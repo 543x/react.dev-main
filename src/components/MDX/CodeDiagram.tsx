@@ -1,4 +1,4 @@
-export function CodeDiagram({ children, flip = false }: CodeDiagramProps) {
+export function CodeDiagram() {
   // ... 函数实现 ...
 }
 
